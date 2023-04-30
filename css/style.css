@@ -709,7 +709,7 @@ form#commentform textarea {
 
 
 
-/*  Portfolio
+/*  misiones
 ================================ */
 
 .work-nav #filters {
@@ -813,14 +813,14 @@ form#commentform textarea {
 	filter: alpha(opacity=100);
 }
  
-ul.portfolio-categ{
+ul.misiones-categ{
 	margin:10px 0 30px 0;
 	padding:0;
 	float:left;
 	list-style:none;
 }
 
-ul.portfolio-categ li{
+ul.misiones-categ li{
 margin: 0; 
 float: left;
 list-style: none;
@@ -830,18 +830,18 @@ border: 1px solid #D5D5D5;
 margin-right: 15px;
 }
 
-ul.portfolio-categ li a{
+ul.misiones-categ li a{
 	display:block;
 	padding: 8px 20px;
 	color: #14A085;
 }
-ul.portfolio-categ li.active{
+ul.misiones-categ li.active{
 
 border: 1px solid #D7D8D6;
 
 background-color: #EAEAEA;
 }
-ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
+ul.misiones-categ li.active a:hover, ul.misiones-categ li a:hover,ul.misiones-categ li a:focus,ul.misiones-categ li a:active {
 	text-decoration:none;
 	outline:0; 
 }
@@ -905,7 +905,7 @@ background: #51d466;
 .progress .progress-bar.progress-bar-lblue {
 background: #32c8de;
 }
-/* --- portfolio detail --- */
+/* --- misiones detail --- */
 .top-wrapper {
 	margin-bottom:20px;
 }
@@ -1633,7 +1633,7 @@ padding-top: 2px;
 	}
 
 	
-	ul.portfolio li article a i.icon-48{
+	ul.misiones li article a i.icon-48{
 		width:20px;
 		height:20px;
 		font-size:16px;
@@ -1694,7 +1694,7 @@ padding-top: 2px;
 		text-align:center;	
 	}
 	
-	ul.portfolio li article a i{
+	ul.misiones li article a i{
 		width:20px;
 		height:20px;
 		font-size:14px;
