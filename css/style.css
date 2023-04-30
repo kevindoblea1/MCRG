@@ -799,6 +799,14 @@ form#commentform textarea {
 	filter: alpha(opacity=80);
 	background: #14A085;
 }
+.map {
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	margin: 20px auto;
+	max-width: 100%;
+  }
+  
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
 	position: absolute;
@@ -1127,18 +1135,18 @@ ul.team-detail li ul.social-network li i {
 }
 
  
-.pricing-title{
+.servicios-title{
 	background:#fff;
 	text-align:center;
 	padding:10px 0 10px 0;
 }
 
-.pricing-title h3{
+.servicios-title h3{
 	font-weight:600;
 	margin-bottom:0;
 }
 
-.pricing-offer{
+.servicios-offer{
 	background: #fcfcfc;
 	text-align: center;
 	padding:40px 0 40px 0;
@@ -1147,36 +1155,36 @@ ul.team-detail li ul.social-network li i {
 	border-bottom:1px solid #e6e6e6;
 }
 
-.pricing-box.activeItem .pricing-offer{
+.servicios-box.activeItem .servicios-offer{
 	color:#fff;
 }
 
-.pricing-offer strong{
+.servicios-offer strong{
 	font-size:78px;
 	line-height:89px;
 }
 
-.pricing-offer sup{
+.servicios-offer sup{
 	font-size:28px;
 }
 
-.pricing-container{
+.servicios-container{
 	background: #fff;
 	text-align:center;
 	font-size:14px;
 }
 
-.pricing-container strong{
+.servicios-container strong{
 color:#353535;
 }
 
-.pricing-container ul{
+.servicios-container ul{
 	list-style:none;
 	padding:0;
 	margin:0;
 }
 
-.pricing-container ul li{
+.servicios-container ul li{
 	border-bottom: 1px solid #F5F5F5;
 list-style: none;
 padding: 15px 0 15px 0;
@@ -1184,19 +1192,19 @@ margin: 0 0 0 0;
 color: #222;
 }
 
-.pricing-action{
+.servicios-action{
 	margin:0;
 	background: #fcfcfc;
 	text-align:center;
 	padding:20px 0 30px 0;
 }
 
-.pricing-wrapp{
+.servicios-wrapp{
 	margin:0 auto;
 	width:100%;
 	background:#fd0000;
 }
- .pricing-box-item {
+ .servicios-box-item {
 border: 1px solid #F5F5F5;
 	
 background: #F9F9F9;
@@ -1211,41 +1219,41 @@ background: #F9F9F9;
   box-sizing: border-box;
 }
 
-.pricing-box-item .pricing-heading {
+.servicios-box-item .servicios-heading {
 	text-align: center;
 	padding:0px 0 0px 0;
 	display:block;
 }
-.pricing-box-item.activeItem .pricing-heading {
+.servicios-box-item.activeItem .servicios-heading {
 	text-align: center;
 	padding:0px 0 1px 0;
 	border-bottom:none;
 	display:block;
 	color:#fff;
 }
-.pricing-box-item.activeItem .pricing-heading h3 {
+.servicios-box-item.activeItem .servicios-heading h3 {
 	 
 }
 
-.pricing-box-item .pricing-heading h3 strong {
+.servicios-box-item .servicios-heading h3 strong {
 	font-size: 20px;
 	font-weight:700;
 	letter-spacing:-1px;
 }
-.pricing-box-item .pricing-heading h3 {
+.servicios-box-item .servicios-heading h3 {
 	font-size: 35px;
 	font-weight:300;
 	letter-spacing:-1px;
 }
 
-.pricing-box-item .pricing-terms {
+.servicios-box-item .servicios-terms {
 	text-align: center;
 	display: block;
 	overflow: hidden;
 	padding: 11px 0 5px; 
 }
 
-.pricing-box-item .pricing-terms  h6 {
+.servicios-box-item .servicios-terms  h6 {
 	font-style:italic;
 	margin-top:10px;
 	color: #14A085;
@@ -1253,7 +1261,7 @@ background: #F9F9F9;
 	font-family:'Noto Serif', serif;
 }
 
-.pricing-box-item .icon .price-circled {
+.servicios-box-item .icon .price-circled {
     margin: 10px 10px 10px 0;
     display: inline-block !important;
     text-align: center !important;
@@ -1272,7 +1280,7 @@ background: #F9F9F9;
     -webkit-border-radius: 64px;
 }
 
-.pricing-box-item  .pricing-action{
+.servicios-box-item  .servicios-action{
 	margin:0;
 	text-align:center;
 	padding:30px 0 30px 0;
